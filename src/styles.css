@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,400;1,500;1,600;1,700;1,800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title {
+  @apply md:text-6xl text-4xl  font-bold;
+}
+.subtitle {
+  @apply md:text-4xl text-2xl font-bold;
+}
+.subtitle-position {
+  @apply h-20 mt-12 mb-6 overflow-hidden;
+}
+.padding-layout {
+  @apply md:px-20 px-10 pt-24 pb-28 md:text-left text-center;
+}
+.grid-layout {
+  @apply grid lg:grid-cols-3 lg:gap-24 gap-0;
+}
+.grid-img {
+  @apply grid md:grid-cols-3 gap-8;
+}
+.grid-footer {
+  @apply grid md:grid-cols-2 md:gap-36 sm:gap-7;
+}
+.media-links {
+  @apply flex  justify-center md:justify-start pt-5;
+}
+.logo-position {
+  @apply md:col-span-1 flex justify-center;
+}
+.btn {
+  @apply bg-darkblue text-primary w-24 h-12 uppercase text-xs text-center hover:bg-primary hover:text-darkblue hover:transition hover:ease-in-out hover:duration-700 hover:border-solid hover:border-2  hover:border-darkblue;
+}
+.dot {
+  @apply w-3 h-3 rounded-full mr-2.5;
+}
